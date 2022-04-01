@@ -16,7 +16,7 @@ a{
     color: white;
     text-decoration: none;
 }
-img{
+header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -28,4 +28,21 @@ img{
 }
 h1{
     color: orange;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
 }
