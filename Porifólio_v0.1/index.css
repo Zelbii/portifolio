@@ -1,8 +1,10 @@
 body {
-    color:white;
-    background-color: black;
+    color:rgb(0, 0, 0);
+    background-color: rgb(190, 190, 190);
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    border-left: 12px;
+    
 }
 ul{
     display:flex;
@@ -13,10 +15,11 @@ ul{
 }
 
 a{
-    color: white;
-    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none
+    ;
 }
-header img{
+img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -28,21 +31,4 @@ header img{
 }
 h1{
     color: orange;
-}
-footer img{
-    width: 40px;
-    height: 40px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-footer a {
-    margin: 20px;
-    text-align: center;
-}
-
-footer p{
-    margin-top: 2px;
 }
